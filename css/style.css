@@ -32,6 +32,8 @@ ul {
 
 h1 {
     text-align: center;
+    color: azure;
+    margin-bottom: 20px;
 }
 
 input[type="text"] {
@@ -53,6 +55,8 @@ button {
 button:hover {
     background-color: #cc97df;
 }
+
+
 
 li {
     margin-bottom: 10px;

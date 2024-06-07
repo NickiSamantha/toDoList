@@ -70,6 +70,16 @@ document.getElementById('sortButton').addEventListener('click', () => {
     sortTasks();
 });
 
+// Function to sort tasks alphabetically
+function sortTasks() {
+    todoList.sort((a, b) => a.name.localeCompare(b.name));
+    renderTodoList();
+}
+
+// Event listener for sorting tasks
+document.getElementById('sortButton').addEventListener('click', () => {
+    sortTasks();
+});
 
 renderTodoList();
 
